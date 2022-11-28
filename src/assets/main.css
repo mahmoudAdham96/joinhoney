@@ -1,0 +1,18 @@
+@import "./base.css";
+
+#app {
+  font-weight: normal;
+}
+ .bg-color {
+    @apply bg-red-600;
+  }
+
+
+@media (hover: hover) {
+
+}
+
+@media (min-width: 1024px) {
+  
+
+}

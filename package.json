@@ -1,0 +1,32 @@
+{
+  "name": "joinhoney",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "vite build",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "vite",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "axios": "^1.2.0",
+    "vue": "^2.7.7",
+    "vue-carousel": "^0.18.0",
+    "vue-router": "^3.5.4",
+    "vuejs-paginate": "^2.1.0"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-patch": "^1.1.0",
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "@vue/eslint-config-prettier": "^7.0.0",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.19",
+    "prettier": "^2.5.1",
+    "tailwindcss": "^3.2.4",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2",
+    "vue-cli-plugin-tailwind": "~3.0.0"
+  }
+}
