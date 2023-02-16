@@ -148,7 +148,7 @@ export default {
     },
     gitData() {
       this.isLoaded = false;
-      const baseURI = `https://honeyapi.herokuapp.com/api/v1/products/${this.search}?page=${this.currentPage}`;
+      const baseURI = `https://honey-api.onrender.com/api/v1/products/${this.search}?page=${this.currentPage}`;
       axios
         .get(baseURI)
         .then((response) => {

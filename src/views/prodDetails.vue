@@ -3,7 +3,7 @@
     <div class="container w-5/6 mx-auto">
       <div class="text-left mb-8">
         <router-link to="/">home</router-link> >
-        <div class="bg-color">hello from tailwind</div>
+        <!-- <div class="bg-color">hello from tailwind</div> -->
         {{ product.ProductDescription }}
       </div>
       <div class="lg:flex text-black justify-between">
@@ -119,7 +119,7 @@ export default {
   },
   methods: {
     gitData() {
-      const baseURI = `https://honeyapi.herokuapp.com/api/v1/products/details/${this.$route.params?.id} `;
+      const baseURI = `https://honey-api.onrender.com/api/v1/products/details/${this.$route.params?.id} `;
       axios
         .get(baseURI)
         .then((response) => {
