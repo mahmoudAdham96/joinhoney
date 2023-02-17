@@ -11,18 +11,9 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: "/", redirect: "/homePage" },
-  { path: "/homePage", component: homePage },
   { path: "/products/:search", component: products },
   { path: "/product/:id", component: prodDetails },
   { path: "*", name: "NotFound", component: NotFound },
-  // {
-  //   path: "/products",
-  //   redirect: (to) => {
-  //     // the function receives the target route as the argument
-  //     // we return a redirect path/location here.
-  //     return { path: "/", query: { q: to.params.search } };
-  //   },
-  // },
   { path: "/homePage", component: homePage },
 ];
 
