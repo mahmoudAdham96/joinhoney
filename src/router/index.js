@@ -14,7 +14,7 @@ const routes = [
   { path: "/", redirect: "/homePage" },
   { path: "/products/:search", component: products },
   { path: "/product/:id", component: prodDetails },
-  { path: "/:pathMatch(.*)*", name: "NotFound", component: NotFound },
+  { path: "*", name: "NotFound", component: NotFound },
   // {
   //   path: "/products",
   //   redirect: (to) => {
