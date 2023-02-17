@@ -10,11 +10,11 @@ Vue.use("paginate", Paginate);
 Vue.use(VueRouter);
 
 const routes = [
-  { path: "/", redirect: "/homePage" },
+  { path: "/", component: homePage, alias: "/homePage" },
+  // { path: "/homePage", component: homePage },
   { path: "/products/:search", component: products },
   { path: "/product/:id", component: prodDetails },
   { path: "*", name: "NotFound", component: NotFound },
-  { path: "/homePage", component: homePage },
 ];
 
 const router = new VueRouter({
