@@ -11,7 +11,7 @@ Vue.use(VueRouter);
 
 const routes = [
   { path: "/", redirect: "/homePage" },
-  { path: "/", redirect: "/homePage" },
+  { path: "/homePage", component: homePage },
   { path: "/products/:search", component: products },
   { path: "/product/:id", component: prodDetails },
   { path: "*", name: "NotFound", component: NotFound },
