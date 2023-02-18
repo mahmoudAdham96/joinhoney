@@ -14,7 +14,7 @@ const routes = [
   { path: "/", redirect: "/homePage" },
   { path: "/products/:search", component: products },
   { path: "/product/:id", component: prodDetails },
-  { path: "*", name: "NotFound", component: NotFound },
+  { path: "/:catchAll(.*)", name: "NotFound", component: NotFound },
 ];
 
 const router = new VueRouter({
