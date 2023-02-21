@@ -94,7 +94,7 @@ export default {
     return {
       products: [],
       pages: [],
-      search: "t-shert",
+      search: "",
       isLoaded: false,
       currentPage: 1,
       perPage: 48,
